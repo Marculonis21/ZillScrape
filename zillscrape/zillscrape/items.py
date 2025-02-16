@@ -5,8 +5,13 @@
 
 import scrapy
 
-
 class ZillscrapeItem(scrapy.Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    zpid = scrapy.Field()
+    imgSrc = scrapy.Field()
+    detailUrl = scrapy.Field()
+    price = scrapy.Field()
+    address = scrapy.Field()
+    latLong = scrapy.Field()
+    brokerName = scrapy.Field()
+    description = scrapy.Field()
